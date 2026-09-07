@@ -43,22 +43,6 @@
     overflow: hidden;
   }
 
-  /* subtle diagonal pattern nodding to the brand's angled monogram cuts */
-  body::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: repeating-linear-gradient(
-      -45deg,
-      var(--hair) 0,
-      var(--hair) 1px,
-      transparent 1px,
-      transparent 64px
-    );
-    opacity: 0.35;
-    pointer-events: none;
-  }
-
   .stage {
     position: relative;
     display: flex;
